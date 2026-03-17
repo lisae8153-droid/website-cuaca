@@ -1,4 +1,4 @@
-# website-cimport streamlit as st
+        import streamlit as st
 import random
 
 # =========================
@@ -14,30 +14,30 @@ st.set_page_config(
 # STYLE CSS SEDERHANA
 # =========================
 st.markdown("""
-    <style>
-    .main {
-        background-color: #eaf6ff;
-    }
-    .judul {
-        text-align: center;
-        color: #1f4e79;
-        font-size: 36px;
-        font-weight: bold;
-    }
-    .subjudul {
-        text-align: center;
-        color: #4a4a4a;
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-    .hasil-box {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        margin-top: 20px;
-    }
-    </style>
+<style>
+.main {
+    background-color: #eaf6ff;
+}
+.judul {
+    text-align: center;
+    color: #1f4e79;
+    font-size: 36px;
+    font-weight: bold;
+}
+.subjudul {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hasil-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+</style>
 """, unsafe_allow_html=True)
 
 # =========================
@@ -88,4 +88,4 @@ if st.button("🔍 Cek Cuaca"):
 # FOOTER
 # =========================
 st.markdown("---")
-st.caption("Dibuat dengan Python + Streamlit")uaca
+st.caption("Dibuat dengan Python + Streamlit")
